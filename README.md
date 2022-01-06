@@ -1,4 +1,4 @@
-# Nairalance Rewards for android
+# Nairalance Rewards for Android
 
 https://nairalance.com
 
