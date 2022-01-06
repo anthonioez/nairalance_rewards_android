@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RewardsInput">
+        <attr name="inputSuffixIcon" format="reference" />
+        <attr name="inputPrefix" format="string" />
+        <attr name="inputPlaceholder" format="string" />
+        <attr name="inputKeyboardType" format="string" />
+        <attr name="inputReturnKey" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RewardsDigit">
+        <attr name="digitNumber" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RewardsDigits">
+        <attr name="digitMax" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="button_radius">24dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+
+    <dimen name="edit_radius">26dp</dimen>
+    <dimen name="edit_height">52dp</dimen>
+
+    <dimen name="badge_earning_radius">12dp</dimen>
+    <dimen name="badge_earning_height">24dp</dimen>
+
+    <dimen name="badge_button_radius">20dp</dimen>
+    <dimen name="badge_button_size">40dp</dimen>
+
+    <dimen name="badge_radius">10dp</dimen>
+    <dimen name="badge_height">20dp</dimen>
+
+
+    <dimen name="avatar_large_height">80dp</dimen>
+    <dimen name="avatar_large_radius">40dp</dimen>
+
+    <dimen name="avatar_profile_radius">64dp</dimen>
+    <dimen name="avatar_profile_size">128dp</dimen>
+
+    <dimen name="avatar_home_radius">36dp</dimen>
+    <dimen name="avatar_home_size">72dp</dimen>
+
+    <dimen name="avatar_thumb_radius">20dp</dimen>
+    <dimen name="avatar_thumb_size">40dp</dimen>
+
+    <dimen name="button_action_size">40dp</dimen>
+    <dimen name="ranking_height">60dp</dimen>
+    <dimen name="earning_height">70dp</dimen>
+    <dimen name="payout_height">80dp</dimen>
+    <dimen name="cashout_height">70dp</dimen>
+    <dimen name="footer_height">50dp</dimen>
+    <dimen name="input_width">320dp</dimen>
+
+    <dimen name="divider_margin">0dp</dimen>
+    <dimen name="reward_image_height">48dp</dimen>
+    <dimen name="option_image_height">48dp</dimen>
+    <dimen name="home_image_height">48dp</dimen>
+
+    <dimen name="faq_margin">20dp</dimen>
+    <dimen name="layout_radius">12dp</dimen>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutText"
+        style="@style/editBox">
+
+        <TextView
+            android:id="@+id/textPrefix"
+            style="@style/editPrefix"
+            android:text=""/>
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/editText"
+            android:hint=""
+            android:imeOptions="actionNext"
+            android:inputType="text"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageSuffix"
+                style="@style/buttonAction"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_done_green"/>
+
+            <ProgressBar
+                android:id="@+id/progressSuffix"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

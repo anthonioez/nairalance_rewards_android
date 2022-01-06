@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/mainLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/layoutRow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ranking_height"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/layoutPosition"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:id="@+id/textPosition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="14sp" android:textStyle="normal"/>
+
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/layoutFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="10dp" android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/imageHolder"
+                style="@style/avatarThumb"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_person_white"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageThumb"
+                style="@style/avatarThumb"
+                android:background="@color/transparent"
+                app:srcCompat="@drawable/ic_person_small_white"
+                android:visibility="visible"/>
+
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/layoutText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/badge_earning_height"
+            android:layout_gravity="center"
+            android:background="@drawable/badge_ranking"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="$8,340"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/greyLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin"
+        android:background="@color/divider"/>
+
+    <LinearLayout
+        android:id="@+id/layoutPad"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ranking_height"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone">
+    </LinearLayout>
+
+</LinearLayout>
+

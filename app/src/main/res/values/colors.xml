@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color">#3F51B5</color>
+
+    <color name="theme_main">#303F9F</color>
+    <color name="theme_active">#00B000</color>
+    <color name="theme_passive">#7babed</color>
+    <color name="theme_alert">#B90000</color>
+    <color name="theme_edit">#CCCCFF</color>
+
+
+    <color name="colorPrimary">@color/theme_color</color>
+    <color name="colorPrimaryDark">@color/theme_main</color>
+    <color name="colorAccent">@color/theme_passive</color>
+
+    <color name="theme_badge_reward">@color/theme_main</color>
+    <color name="theme_badge_earning">@color/theme_active</color>
+    <color name="theme_badge_ranking">@color/theme_passive</color>
+    <color name="theme_badge">@color/theme_passive</color>
+
+
+
+    <color name="theme_pink">#f6c2db</color>
+    <color name="theme_ash">#ced6e3</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#000080</color>
+    <color name="claimed">#C0C0C0</color>
+    <color name="gray">#C0C0C0</color>
+
+    <color name="holder_avatar">#33C0C0C0</color>
+
+
+    <color name="text">#494949</color>
+    <color name="detail">#727272</color>
+
+    <color name="spinner_triangle">#f5f5f5</color>
+    <color name="disabled">#848484</color>
+
+    <color name="ads">#eeeeee</color>
+
+    <color name="online">#00C000</color>
+    <color name="offline">#cccccc</color>
+    <color name="title">#313131</color>
+    <color name="time">#b1b1b1</color>
+    <color name="line">#e6e6e6</color>
+    <color name="money">#008000</color>
+    <color name="select">#50ca1548</color>
+    <color name="alert">#ca1548</color>
+    <color name="error">#800000</color>
+    <color name="overlay">#80000000</color>
+
+    <color name="selector">#e6e6e6</color>
+
+    <color name="facebook">#FF3b5998</color>
+    <color name="facebookDark">#803b5998</color>
+
+    <color name="google">#FFd34836</color>
+    <color name="googleDark">#80d34836</color>
+
+    <color name="twitter">#FF0084b4</color>
+    <color name="twitterDark">#800084b4</color>
+    <color name="badge">#D00000</color>
+    <color name="badge_button">#D00000</color>
+    <color name="divider">#33e6e6e6</color>
+    <color name="divider_dark">#e6e6e6</color>
+
+
+</resources>

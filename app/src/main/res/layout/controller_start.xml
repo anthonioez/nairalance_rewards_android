@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layoutMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".activities.ActivityStart">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1" android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/layoutSplash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp" android:src="@drawable/logo_white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Rewards"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/white"
+                android:textSize="22sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:text="nairalance.com"
+                android:textColor="@color/theme_ash"
+                android:textSize="14sp"/>
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/spinKit"
+                style="@style/SpinKitView.Small.WanderingCubes"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible"
+                app:SpinKit_Color="@color/colorAccent"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layoutIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vpPager"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" android:layout_weight="1">
+            </androidx.viewpager.widget.ViewPager>
+
+            <LinearLayout
+                android:id="@+id/layoutControl"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:id="@+id/layoutDot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/splashCircle1"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginRight="5dp"
+                        app:srcCompat="@drawable/ic_circle_white"/>
+
+                    <ImageView
+                        android:id="@+id/splashCircle2"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginRight="5dp"
+                        app:srcCompat="@drawable/ic_circle_gray"/>
+
+                    <ImageView
+                        android:id="@+id/splashCircle3"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginRight="5dp"
+                        app:srcCompat="@drawable/ic_circle_gray"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonStart"
+                style="@style/buttonActive"
+                android:layout_width="300dp"
+                android:text="Get Started"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:alpha="0.5"
+                android:text="By signing up, you agree to the"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:id="@+id/textMade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Terms of Use, Privacy Policy, and Rules"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

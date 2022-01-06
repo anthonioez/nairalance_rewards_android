@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layoutRow"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:drawSelectorOnTop="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp">
+
+        <FrameLayout
+            android:id="@+id/layoutFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageIcon"
+                android:layout_width="@dimen/option_image_height"
+                android:layout_height="@dimen/option_image_height"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:scaleType="centerInside"
+                app:srcCompat="@mipmap/ic_launcher"/>
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lines="1"
+                android:text="Title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>/>
+
+            <TextView
+                android:id="@+id/textStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="Status"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/detail"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/layoutRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switchState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:theme="@style/switchStyle"
+                app:showText="false"/>
+
+            <ImageView
+                android:id="@+id/imageArrow"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="-5dp"
+                android:alpha="0.5"
+                android:clickable="false"
+                app:srcCompat="@drawable/ic_navigate_next"
+                android:visibility="gone"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/greyLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/divider_margin"
+        android:layout_marginRight="@dimen/divider_margin"
+        android:background="@color/divider_dark"/>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@color/white"
+            android:elevation="2dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:id="@+id/toolbar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/dropshadow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <include android:id="@id/layoutAd"
+                 style="@style/bannerStyle"
+                 layout="@layout/content_ad"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/itemList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:listitem="@layout/adapter_rankings"
+                android:scrollbars="vertical"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/shadowFooter"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@drawable/undropshadow"/>
+
+                <LinearLayout
+                    android:id="@+id/layoutFooter"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ranking_height"
+                    android:background="@color/colorPrimary">
+
+                    <include
+                        layout="@layout/adapter_rankings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/ranking_height"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

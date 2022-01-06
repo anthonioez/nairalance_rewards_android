@@ -1,0 +1,508 @@
+<resources>
+    <string name="app_name">Rewards</string>
+
+    <string name="rewards">Rewards</string>
+    <string name="earnings">Earnings</string>
+    <string name="rankings">Rankings</string>
+    <string name="rates">Rates</string>
+    <string name="account">Account</string>
+    <string name="reload">Reload</string>
+    <string name="cashout">Cash Out</string>
+    <string name="cashout_history">Cash Out History</string>
+
+    <string name="intro_welcome">Welcome to Nairalance Rewards</string>
+    <string name="intro_welcome_desc">daily rewards, weekly cash out</string>
+
+    <string name="intro_invite">Invite a Friend</string>
+    <string name="intro_invite_desc">Refer a friend and you both earn points when your friend signs up with
+        your referral code.
+    </string>
+
+    <string name="intro_play">Complete Tasks</string>
+    <string name="intro_play_desc">Check daily and perform available tasks for reward points.
+    </string>
+
+    <string name="intro_earn">Earn Points</string>
+    <string name="intro_earn_desc">Earn reward points when you complete tasks.
+    </string>
+
+    <string name="intro_cashout">Cash Out</string>
+    <string name="intro_cashout_desc">Convert earned points to airtime or cash out to your bank
+        account via Nairalance.
+    </string>
+
+    <string name="intro_thanks">Thanks for downloading Rewards</string>
+    <string name="intro_click_start">Continue</string>
+
+    <string name="please_state">Please select your state!</string>
+    <string name="please_gender">Please select your gender!</string>
+    <string name="please_city">Please enter your city!</string>
+    <string name="please_phone">Please enter your phone number!</string>
+    <string name="please_valid_phone">Please enter a valid phone number!</string>
+
+    <string name="please_verification_code">Please enter your verification code!</string>
+    <string name="please_valid_verification_code">Please enter a valid verification code!</string>
+    <string name="please_verification_code_email">Please enter the 4 digit code sent to your email address!</string>
+    <string name="please_acc_name">Please enter your account name!</string>
+    <string name="please_acc_number">Please enter your account number!</string>
+
+    <string name="please_valid_city">Please enter a valid city, maximum of 20 characters!</string>
+
+    <string name="please_username">Please enter your username!</string>
+    <string name="please_valid_username">Please enter a valid username, maximum of 15 characters!</string>
+    <string name="please_valid_referrer">Please enter a valid referral username, maximum of 15
+        characters!
+    </string>
+
+    <string name="unable_to_copy_to_clipboard">Unable to copy to clipboard!</string>
+    <string name="new_feature">New Feature:\nFind Friends on Nairalance Rewards</string>
+    <string name="err_unable_to_load_homes">Unable to load your data</string>
+    <string name="err_unable_to_load_rewards_action">Unable to load actions</string>
+    <string name="err_unable_to_load_rewards">Unable to load rewards</string>
+
+    <string name="points_caps">POINTS</string>
+    <string name="balance_caps">BALANCE</string>
+    <string name="ranking_caps">RANKING</string>
+    <string name="no_rewards_found">No rewards found!</string>
+
+    <string name="reward_claim">Claiming reward...</string>
+    <string name="reward_request">Requesting reward...</string>
+    <string name="reward_not_requested">No reward requested!</string>
+    <string name="title_activity_expand">ActivityExpand</string>
+    <string name="help">Help</string>
+    <string name="about_help">How it works</string>
+    <string name="faqs">FAQs</string>
+    <string name="about_faqs">Frequently asked questions</string>
+
+    <string name="err_unable_to_load_payouts">Unable to load payouts</string>
+    <string name="err_unable_to_load_payout_data">Unable to load payout data</string>
+    <string name="err_unable_to_load_request">Unable to load request!</string>
+    <string name="err_unable_to_load_earnings">Unable to load earnings!</string>
+    <string name="err_unable_to_load_rankings">Unable to load rankings!</string>
+    <string name="err_unable_to_load_faqs">Unable to load FAQs!</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_profile_desc">Update your Nairalance account</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+
+    <string name="audience_reward_main">335087333317174_955470294612205</string>
+
+    <string name="admob_app">ca-app-pub-7287313281467473~8367227499</string>
+
+    <string name="admob_reward_test">ca-app-pub-3940256099942544/5224354917</string>
+
+    <string name="admob_reward">ca-app-pub-7287313281467473/4096809993</string>
+    <string name="admob_inter">ca-app-pub-7287313281467473/6706962783</string>
+    <string name="admob_banner">ca-app-pub-7287313281467473/4491862989</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password_retype">Confirm password</string>
+    <string name="login_now_ask">Login</string>
+    <string name="title_activity_upload_list">Uploads</string>
+    <string name="title_activity_add">New Upload</string>
+
+    <string name="app_url">https://nairalance.com</string>
+    <string name="app_domain">nairalance.com/rewards</string>
+    <string name="app_socket">1550</string>
+    <string name="app_email">rewards@nairalance.com</string>
+
+    <string name="app_headline">Keep up with Nigeria</string>
+    <string name="facebook_app_id">335087333317174</string>
+    <string name="fb_login_protocol_scheme">335087333317174</string>
+
+
+    <string name="err_no_connection">No internet connection available!</string>
+    <string name="err_server_unable">Unable to connect to server</string>
+    <string name="err_server_connection">Server connection error</string>
+    <string name="err_server_incorrect_data">Incorrect data from server!</string>
+    <string name="err_server_incorrect_response">Incorrect response from server!</string>
+    <string name="err_unable_connect">Unable to connect to internet!</string>
+    <string name="err_server_json">Server data error</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="contact_us">Contact Us</string>
+    <string name="connect_us">Connect With Us</string>
+
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="continew">Continue</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="rate">Rate</string>
+    <string name="chat">Chat</string>
+    <string name="id">id</string>
+    <string name="blank"/>
+    <string name="typing">Typing...</string>
+    <string name="chat_hint">Type your message here...</string>
+
+    <string name="err_server_invalid_data">Invalid data received from server!</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="sort">Sort</string>
+    <string name="update">Update</string>
+    <string name="update_now">Update Now!</string>
+    <string name="send">Send</string>
+
+    <string name="open_in_browser">Open In Browser</string>
+    <string name="start">Start</string>
+    <string name="upload">Upload</string>
+    <string name="request">Request</string>
+    <string name="create">Create</string>
+
+    <string name="description">Description</string>
+    <string name="details">Details</string>
+    <string name="signup">Signup</string>
+
+    <string name="start_terms">By continuing, you agree that you accept our
+        \n
+        <br/>
+        <a href="https://www.nairalance.com/privacy-policy">
+            <b>Privacy Policy</b>
+        </a>
+        and
+        <a href="https://www.nairalance.com/terms-of-service">
+            <b>Terms of Service</b>
+        </a>
+    </string>
+
+    <string name="login">Login</string>
+    <string name="password_recovery">Password Recovery</string>
+    <string name="captcha">CAPTCHA</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="forgot_password_ask">Forgot password?</string>
+    <string name="signup_now_ask">
+        <![CDATA[Don\'t have an account? <b>Signup Now!</b>]]>
+    </string>
+    <string name="change_password">Change Password</string>
+    <string name="change_phone_number">Change Phone Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="send_code">Send Code</string>
+    <string name="have_code">I have a Code</string>
+    <string name="phone_verification">Phone Verification</string>
+    <string name="views">Views</string>
+
+    <string name="key_notification_led">notifications_led</string>
+    <string name="key_notification_sound">notifications_sound</string>
+    <string name="key_notification_status">notifications_status</string>
+    <string name="key_notification_vibrate">notifications_vibrate</string>
+    <string name="key_feed_images">feed_images</string>
+    <string name="key_content_javascript">content_javascript</string>
+
+    <string name="off">Off</string>
+    <string name="no_sound">No sound</string>
+    <string name="post">Post</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="upload_ask">
+        <![CDATA[Are you sure you want to <b>upload</b> this file?]]>
+    </string>
+
+    <string name="tap_to_reload">Tap to reload</string>
+    <string name="format_s_s" formatted="false">%s %s</string>
+    <string name="format_s__s" formatted="false">%s - %s</string>
+    <string name="no_files_found">No files found!</string>
+
+    <string name="no_picture_uploaded">No picture uploaded!</string>
+    <string name="file_upload_wait_toast">Please wait for current upload to complete!</string>
+    <string name="file_not_available_on_device">File not available on device!</string>
+    <string name="permission_info_upload">Storage permission is required to upload file!</string>
+    <string name="install_file_manager">Please install a File Manager.</string>
+
+    <string name="no_user_found">No user found!</string>
+    <string name="dashboard">Dashboard</string>
+
+    <string name="submit_caps">SUBMIT</string>
+    <string name="update_caps">UPDATE</string>
+
+    <string name="next_caps">NEXT</string>
+    <string name="back_caps">BACK</string>
+
+    <string name="select_file">Select file</string>
+
+    <string name="skip_caps">SKIP</string>
+    <string name="save">Save</string>
+    <string name="verify_phone">Verify Phone</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="rate_app">Rate this App</string>
+    <string name="loading_contacts">Loading contacts</string>
+    <string name="please_username_email">Please enter your username or email address!</string>
+    <string name="please_password">Please enter your password!</string>
+    <string name="please_valid_password_min">Please enter a valid password, at least 8 characters!
+    </string>
+    <string name="please_valid_password_max">Please enter a valid password, at most 32 characters!
+    </string>
+    <string name="please_email">Please enter your email address!</string>
+    <string name="please_valid_email">Please enter a valid email address!</string>
+    <string name="please_valid_username_min">Please enter a valid username, at least 4 characters!
+    </string>
+    <string name="please_valid_username_max">Please enter a valid username, at most 16 characters!
+    </string>
+    <string name="please_retype_password">Please re-enter your password!</string>
+    <string name="please_retype_password_min">Please re-enter a valid password, at least 8
+        characters!
+    </string>
+    <string name="please_retype_password_max">Please re-enter a valid password, at most 32
+        characters!
+    </string>
+    <string name="please_password_mismatch">Passwords must be identical, please confirm your
+        password!
+    </string>
+    <string name="please_accept_tos">Please accept your Terms of Service and Privacy Policy!
+    </string>
+    <string name="uploading_dots">Uploading...</string>
+    <string name="deleting_dots">Deleting...</string>
+    <string name="err_occurred">An error occurred!</string>
+    <string name="image_slash">image/</string>
+    <string name="file_scheme">file://</string>
+    <string name="uploading">Uploading</string>
+    <string name="upload_error">Upload error</string>
+    <string name="uploaded">Uploaded</string>
+    <string name="Received">Received</string>
+    <string name="welcome">Welcome!</string>
+    <string name="please_signup_or_login">Please signup or login.</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="setup_caps">SETUP</string>
+    <string name="start_caps">START</string>
+    <string name="login_caps">LOGIN</string>
+    <string name="signup_caps">SIGNUP</string>
+    <string name="format_ss" formatted="false">%s%s</string>
+    <string name="token_not_received">Token not received from server!</string>
+    <string name="unable_to_store_token">Unable to store token!</string>
+    <string name="format_d_s_d" formatted="false">%d/%d</string>
+    <string name="users">Users</string>
+
+
+    <string name="share_app_text">Download Rewards for Android
+        http://play.google.com/store/apps/details?id=
+    </string>
+
+    <string name="please_current_password">Please enter your current password!</string>
+    <string name="please_valid_current_password_min">Please enter a valid current password, at least
+        8 characters!
+    </string>
+    <string name="please_valid_current_password_max">Please enter a valid current password, at most
+        32 characters!
+    </string>
+    <string name="please_new_password">Please enter your new password!</string>
+    <string name="please_valid_new_password_min">Please enter a valid new password, at least 8
+        characters!
+    </string>
+    <string name="please_valid_new_password_max">Please enter a valid new password, at most 32
+        characters!
+    </string>
+    <string name="please_retype_new_password">Please re-enter your new password!</string>
+    <string name="please_retype_valid_new_password_min">Please re-enter a valid new password, at
+        least 8 characters!
+    </string>
+    <string name="please_retype_valid_new_password_max">Please re-enter a valid new password, at
+        most 32 characters!
+    </string>
+    <string name="please_use_different_password">Please use a different password as your new
+        password!
+    </string>
+    <string name="password_new_mismatch">Passwords must be identical, please confirm your new
+        password!
+    </string>
+    <string name="please_search_text">Please enter a text to search!</string>
+    <string name="please_search_text_max">A maximum of 20 characters is allowed per search!</string>
+    <string name="search_title_desc">Search by title or description...</string>
+    <string name="connected">Connected</string>
+    <string name="format_s_quote" formatted="false">\"%s\"</string>
+    <string name="you_are_connected">You are not connected!</string>
+    <string name="no_s_s_found" formatted="false">No %s %s found!</string>
+    <string name="loading_s_s" formatted="false">Loading %s %s</string>
+    <string name="search_title">Search by title</string>
+    <string name="storage_permission_upload">Storage permission is required to upload file!</string>
+    <string name="install_picture_gallery">Please install a Picture Gallery app.</string>
+    <string name="please_resize_picture">Please resize the picture or use a smaller file!</string>
+    <string name="storage_permission_denied">Storage permission denied!</string>
+    <string name="please_first_name">Please enter your first name!</string>
+    <string name="please_last_name">Please enter your last name!</string>
+    <string name="please_headline">Please enter your headline, at least 10 characters!</string>
+    <string name="please_phone_number">Please enter your phone number!</string>
+    <string name="please_nigeria_phone_format" formatted="false">Please enter a valid Nigerian phone
+        number (13 digits
+        starting with 234, e.g. %s)!
+    </string>
+    <string name="idd">234</string>
+    <string name="cannot_use_our_phone">You cannot use our phone number!</string>
+    <string name="disconnected_from_chat">Disconnected from chat!</string>
+    <string name="reconnecting">Reconnecting...</string>
+    <string name="unable_to_connect_chat">Unable to connect to chat!</string>
+    <string name="error_occurred_chat">An error occurred!</string>
+    <string name="unable_to_login_restart">Unable to login, please restart the app!</string>
+    <string name="connecting">Connecting...</string>
+
+    <string name="profile_not_found">Profile not found!</string>
+    <string name="alerts">Alerts</string>
+    <string name="reset">Reset</string>
+
+    <string name="like_facebook">Like on Facebook</string>
+    <string name="follow_twitter">Follow on Twitter</string>
+    <string name="share_app">Share App</string>
+    <string name="tell_a_friend">Tell a friend</string>
+
+    <string name="favorites">Favorites</string>
+    <string name="about">About</string>
+    <string name="info">Info</string>
+    <string name="more_apps">More apps</string>
+    <string name="version">Version</string>
+    <string name="support">Support</string>
+    <string name="publisher">Publisher</string>
+    <string name="developer">Developer</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="more">More</string>
+    <string name="website">Website</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="signin">Sign In</string>
+    <string name="source_unfollow">Unfollow Source</string>
+    <string name="source_follow">Follow Source</string>
+    <string name="favorites_remove">Remove from Favorites</string>
+    <string name="favorites_add">Add to Favorites</string>
+    <string name="link_copied">Link copied to your clipboard!</string>
+    <string name="update_info">An version of this app is available on Google Play.</string>
+    <string name="connection_busy"></string>
+    <string name="err_unable_to_register_device">Unable to register device!</string>
+    <string name="err_authentication">Authentication error!</string>
+    <string name="err_invalid_args">Invalid arguments</string>
+    <string name="err_unable_login">Unable to login!</string>
+    <string name="err_signin_unable">Unable to signin!</string>
+    <string name="err_signup_unable">Unable to signup!</string>
+    <string name="or_login_with">or login with</string>
+    <string name="signing_in">Signing in...</string>
+    <string name="format_welcome" formatted="false">Welcome, %s</string>
+    <string name="twitter_logged_already">You are already logged in to Twitter</string>
+    <string name="facebook_logged_already">You are already logged in to Facebook</string>
+    <string name="logout_ask">Do you want to logout?</string>
+    <string name="or_signup_with">or signup with</string>
+    <string name="format_read_text">Read %s on nairalance.com/apps</string>
+    <string name="favorites_removing">Removing from Favorites</string>
+    <string name="favorites_adding">Adding to Favorites</string>
+    <string name="link_copy">Copy Link</string>
+    <string name="link_open">Open Link</string>
+    <string name="save_image">Save Image</string>
+    <string name="downloading_file">Downloading File</string>
+    <string name="error">Error</string>
+    <string name="logout_confirm">Are you sure you want to logout?</string>
+    <string name="aince">ai_n_ce</string>
+    <string name="fb_page_id">339664012710517</string>
+    <string name="publisher_url">https://www.miciniti.com</string>
+    <string name="website_url">https://www.nairalance.com/rewards</string>
+    <string name="website_apps">https://www.nairalance.com/rewards/apps</string>
+    <string name="cache_confirm">Are you sure you want to clear the cache?</string>
+    <string name="cache_cleared">Cache cleared!</string>
+    <string name="logout_successful">Logout successful!</string>
+
+    <string name="account_favs">View all your favorite contents</string>
+    <string name="account_prefs">Preferences and customisations</string>
+    <string name="account_alerts">Set which notifications you receive</string>
+    <string name="account_feedback">Send us your comments, questions and suggestions</string>
+
+    <string name="about_rate">Rate Rewards on Google Play Store</string>
+    <string name="about_more">Get more apps by Miciniti</string>
+
+    <string name="about_miciniti">www.miciniti.com</string>
+    <string name="about_aince">\@ai_n_ce</string>
+    <string name="about_facebook">facebook.com/Nairalance</string>
+    <string name="about_twitter">twitter.com/Nairalance</string>
+    <string name="about_tell">Tell a friend about Nairalance</string>
+
+    <string name="account_invite">Invite friends using contacts on your phone</string>
+
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_header_image">Image</string>
+    <string name="pref_header_content">Content</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_title_status">Status</string>
+    <string name="pref_title_sound">Sound</string>
+    <string name="pref_title_push">Push</string>
+    <string name="pref_title_feed">Feed</string>
+
+    <string name="pref_feed_image_on">Show images in feed list</string>
+    <string name="pref_feed_image_off">Do not show images in feed list</string>
+
+    <string name="pref_push_image_on">Show image in push notifications</string>
+    <string name="pref_push_image_off">Do not show image in push notifications</string>
+
+    <string name="pref_title_home">Home page</string>
+    <string name="pref_title_javascript">Javascript</string>
+    <string name="pref_vibrate_on">Vibrate on incoming notifications</string>
+    <string name="pref_vibrate_off">Do not vibrate on incoming notifications</string>
+    <string name="pref_push_on">Enable push notifications</string>
+    <string name="pref_push_off">Disable push notifications</string>
+    <string name="pref_title_led">LED</string>
+    <string name="pref_led_on">Pulse LED light on incoming notifications</string>
+    <string name="pref_led_off">No lights</string>
+    <string name="account_logout">Logout of your account</string>
+    <string name="signout">Sign Out</string>
+    <string name="twKey0">Nz8V5G9XnfZZM0ivGXGMOLYjk</string>
+    <string name="not_really">Not really</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="ok_sure">Ok, sure!</string>
+    <string name="yes_">Yes!</string>
+
+    <string name="ask_like">Do you like Nairalance Rewards?</string>
+    <string name="ask_rating">How about a rating on Google Play Store?</string>
+    <string name="ask_feedback">Would you mind giving us some feedback?</string>
+
+    <string name="com_facebook_loginview_log_in_button_continue_f1gender"></string>
+    <string name="com_facebook_loginview_log_in_button_continue_m2gender"></string>
+    <string name="com_facebook_loginview_log_out_action_f1gender"></string>
+    <string name="com_facebook_loginview_log_out_action_m2gender"></string>
+    <string name="com_facebook_loginview_log_out_button_f1gender"></string>
+    <string name="com_facebook_loginview_log_out_button_m2gender"></string>
+    <string name="com_facebook_loginview_logged_in_as_f1gender"></string>
+    <string name="com_facebook_loginview_logged_in_as_m2gender"></string>
+    <string name="com_facebook_loginview_logged_in_using_facebook_f1gender"></string>
+    <string name="com_facebook_loginview_logged_in_using_facebook_m2gender"></string>
+
+    <string name="com_facebook_send_button_text_f1gender"></string>
+    <string name="com_facebook_send_button_text_m2gender"></string>
+
+    <string name="com_facebook_share_button_text_f1gender"></string>
+    <string name="com_facebook_share_button_text_m2gender"></string>
+    <string name="com_facebook_smart_login_confirmation_cancel_f1gender"></string>
+    <string name="com_facebook_smart_login_confirmation_cancel_m2gender"></string>
+    <string name="com_facebook_smart_login_confirmation_continue_as_f1gender"></string>
+    <string name="com_facebook_smart_login_confirmation_continue_as_m2gender"></string>
+
+    <string name="com_facebook_smart_login_confirmation_title_f1gender"></string>
+    <string name="com_facebook_smart_login_confirmation_title_m2gender"></string>
+
+    <string name="com_facebook_tooltip_default_f1gender"></string>
+    <string name="com_facebook_tooltip_default_m2gender"></string>
+
+    <string name="utf8">UTF-8</string>
+
+    <string name="no_picture_taken">No picture taken!</string>
+    <string name="storate_permission_denied">Storage permission denied!</string>
+
+</resources>

@@ -1,0 +1,255 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="AppTheme.Settings">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="background">@color/colorPrimary</item>
+
+        <item name="titleTextStyle">@style/toolbarText</item>
+        <item name="subtitleTextStyle">@style/toolbarDesc</item>
+    </style>
+
+    <style name="MyDropDownNav" parent="android:style/Widget.Spinner">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="toolbarText" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="toolbarDesc" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="coloredButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_colored</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="switchStyle" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorPrimary</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f</item>
+    </style>
+
+    <style name="editStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/detail</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="footerProgressStyle" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_gravity">center_horizontal|bottom</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="captchaEdit">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/detail</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLength">8</item>
+    </style>
+
+    <style name="cardStyle" parent="CardView">
+        <item name="android:layout_margin">2dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="cardTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="cardDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/detail</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="pageTitle" parent="cardTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="bannerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="appiratorButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_colored</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="buttonBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">80dp</item>
+        <item name="android:paddingRight">80dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="buttonActive" parent="buttonBase">
+        <item name="android:background">@drawable/button_active</item>
+    </style>
+
+    <style name="buttonTransparent" parent="buttonBase">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="buttonPassive" parent="buttonBase">
+        <item name="android:background">@drawable/button_passive</item>
+    </style>
+
+    <style name="editBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/edit_corner</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="editPrefix">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">0dp</item>
+
+    </style>
+
+    <style name="editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="buttonAction">
+        <item name="android:layout_width">@dimen/button_action_size</item>
+        <item name="android:layout_height">@dimen/button_action_size</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="avatarProfile">
+        <item name="android:layout_width">@dimen/avatar_profile_size</item>
+        <item name="android:layout_height">@dimen/avatar_profile_size</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/avatar_profile</item>
+    </style>
+
+
+    <style name="avatarHome">
+        <item name="android:layout_width">@dimen/avatar_home_size</item>
+        <item name="android:layout_height">@dimen/avatar_home_size</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/avatar_home</item>
+    </style>
+
+    <style name="avatarThumb">
+        <item name="android:layout_width">@dimen/avatar_thumb_size</item>
+        <item name="android:layout_height">@dimen/avatar_thumb_size</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/avatar_thumb</item>
+    </style>
+
+    <style name="icon">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">centerInside</item>
+
+    </style>
+
+
+    <style name="welcomeEditDigitText">
+        <item name="android:textSize">40sp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:inputType">number</item>
+        <item name="android:ems">1</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/layoutMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include android:id="@id/layoutAd"
+                 style="@style/bannerStyle"
+                 layout="@layout/content_ad"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/itemList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/adapter_payout_data"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/shadowFooter"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@drawable/undropshadow"/>
+
+        <LinearLayout
+            android:id="@+id/layoutFooter"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/earning_height"
+            android:background="@color/colorPrimary"
+            android:gravity="bottom|center_horizontal">
+
+            <include
+                layout="@layout/adapter_payout_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/cashout_height"/>
+
+</FrameLayout>

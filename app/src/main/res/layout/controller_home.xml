@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <ImageButton
+                android:id="@+id/buttonSettings"
+                style="@style/icon"
+                app:srcCompat="@drawable/ic_info_white"/>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_white"/>
+            </FrameLayout>
+
+            <ImageButton
+                android:id="@+id/buttonProfile"
+                style="@style/icon"
+                app:srcCompat="@drawable/ic_person_white"/>
+        </LinearLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layoutHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center" android:orientation="horizontal"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/layoutRanking"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textRanking"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="1,000"
+                            android:textColor="@color/theme_passive"
+                            android:textSize="22sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/textRankingText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/ranking_caps"
+                            android:textColor="@color/theme_ash"
+                            android:textSize="12sp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutCover"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageHolder"
+                                style="@style/avatarHome"
+                                android:padding="10dp"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/ic_person_white"/>
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/imageCover"
+                                style="@style/avatarHome"
+                                android:background="@color/transparent"
+                                android:visibility="visible"/>
+
+                        </FrameLayout>
+
+
+                        <TextView
+                            android:id="@+id/textUser"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="username"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutEarnings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textBalance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="₦1,000"
+                            android:textColor="@color/theme_active"
+                            android:textSize="22sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/textBalanceText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/balance_caps"
+                            android:textColor="@color/theme_ash"
+                            android:textSize="12sp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <include android:id="@id/layoutAd"
+                         style="@style/bannerStyle"
+                         layout="@layout/content_ad"/>
+
+                <FrameLayout
+                    android:id="@+id/layoutBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:clipChildren="false"
+                    android:clipToPadding="true"
+                    android:background="@drawable/layout_round_white_main">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/itemList"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:scrollIndicators="none"
+                            android:scrollbars="none"/>
+
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone"/>
+
+                </FrameLayout>
+
+                <!--
+                <include android:id="@id/layoutAd"
+                         style="@style/bannerStyle"
+                         layout="@layout/content_ad"/>
+                -->
+
+                <LinearLayout
+                    android:id="@+id/layoutFooter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingBottom="15dp" android:paddingLeft="15dp"
+                    android:paddingRight="15dp">
+
+                    <Button
+                        android:id="@+id/buttonRankings"
+                        style="@style/buttonPassive"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="Rankings"/>
+
+                    <Button
+                        android:id="@+id/buttonEarnings"
+                        style="@style/buttonActive"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="Earnings"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+</LinearLayout>

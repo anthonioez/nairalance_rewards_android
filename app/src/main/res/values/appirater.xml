@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appirator_market_url">market://details?id=%s</string>
+    <string name="appirator_playstore_url">https://play.google.com/store/apps/details?id=%s</string>
+    <integer name="appirator_days_until_prompt">5</integer>
+    <integer name="appirator_launches_until_prompt">10</integer>
+    <integer name="appirator_events_until_prompt">5</integer>
+    <!-- Set this to 0 to remind every launch -->
+    <integer name="appirator_days_before_reminding">2</integer>
+    <!-- Change to true to show every time, for testing -->
+    <bool name="appirator_test_mode">false</bool>
+
+    <string name="rate_title">Rate %s</string>
+    <string name="rate_message">If you find %s useful, please take a moment to send us your review on Google Play Store. Thanks for your support.</string>
+    <string name="rate_yes">Yes, Rate %s</string>
+    <string name="rate_later">Remind me later</string>
+    <string name="rate_cancel">No, Thanks</string>
+</resources>

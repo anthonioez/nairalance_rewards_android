@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_gravity="center"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/badge_earning_height"
+        android:layout_gravity="center"
+        android:background="@drawable/badge_earning"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="1000"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+    </FrameLayout>
+</FrameLayout>
+
